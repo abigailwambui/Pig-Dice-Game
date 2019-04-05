@@ -1,0 +1,11 @@
+.jumbotron {
+  align: center;
+  font-stretch: expanded;
+  font-weight: bold;
+  font-family: serif;
+}
+.panel panel-header {
+  align: center;
+  font-size-adjust: auto;
+  font-family: serif;
+  }

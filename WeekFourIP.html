@@ -12,16 +12,35 @@
   <body>
     <div class="container">
     <div class="panel panel-header">
+
       <h1>PIG DICE GAME</h1>
-  </div>
+      </div>
     <div class="jumbotron">
       <h2>INSTRUCTIONS</h2>
       <p>1. Two players score points by rolling the dice, first player to 100 wins!</p>
       <p>2. If you score a 1 you lose all your points and lose your turn.</p>
       <p>3. You can keep your current score and pass by clicking hold.</p>
     </div>
-    <button id="abby" type="roll" class="btn btn-info" name="roll">Roll</button><br> <br>
-    <button id="wambui" type="roll" class="btn btn-info" name="roll">Roll</button>
+    <div class="row">
+    <div class="col-md-6">
+      <h3>Player One</h3><br>
+    <button id="abby" type="roll" class="btn btn-info" name="player1">Roll</button><br> <br> <br> <br>
+    <button id="hold1" type="hold" class="btn btn-info" name="PLAYER 1">HOLD PLAYER 1</button><br> <br> <br>
+    <div class="output1"></div><br> <br> <br> <br> <br> <br>
+    <div class="output2"></div>
   </div>
+
+   <div class="col-md-6"><br>
+    <h3>Player Two</h3>
+    <button id="wambui" type="roll" class="btn btn-info" name="player2">Roll</button><br> <br> <br> <br>
+    <button id="hold2" type="hold" class="btn btn-info" name="PLAYER 2">HOLD PLAYER 2</button><br> <br> <br>
+    <div class="output1"></div><br> <br> <br> <br> <br> <br>
+      <div class="output2"></div>
+    </div>
+
+</div>
+  </div>
+
+
   </body>
   </html>

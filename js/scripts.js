@@ -18,6 +18,7 @@ $(".output4").text(sum);
 if (randomtwo===1) {
   alert(0);
 }
+$
 //alert(random2);
 });
 if (randomOne === 1) {

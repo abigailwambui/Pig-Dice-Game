@@ -34,4 +34,7 @@ $(document).ready(function() {
   $("#hold2").click(function() {
     $("button#wambui").toggle();
   });
+  $("#hold1").click(function() {
+    $("button#abby").toggle();
+  });
 });

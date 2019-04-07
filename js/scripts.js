@@ -34,9 +34,10 @@ if (randomTwo===1) {
 $(document).ready(function() {
   $("#hold2").click(function() {
     $("button#wambui").toggle();
-    alert ("Nextplayer!");
+    $(".images").toggle();
   });
   $("#hold1").click(function() {
     $("button#abby").toggle();
+    $(".images").toggle();
   });
 });

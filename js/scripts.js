@@ -8,6 +8,10 @@ $(document).ready(function () {
   $(".output1").text(randomOne);
   sumOne = sumOne + randomOne;
   $(".output2").text(sumOne);
+
+  if (randomOne===1) {
+    return sumOne *=0;
+  }
   //alert(random1);
 });
 $("#wambui").click(()=> {
@@ -16,16 +20,11 @@ var randomTwo = Math.floor((Math.random()*6) +1);
 $(".output3").text(randomTwo);
 sumTwo = sumTwo + randomTwo;
 $(".output4").text(sumTwo);
-if (randomtwo===1) {
-  alert(0);
+
+if (randomTwo===1) {
+  return sumTwo *= 0;
 }
+});
 
 //alert(random2);
-});
-if (randomOne === 1) {
-  alert();
-}
-
-
-
 });

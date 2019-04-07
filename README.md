@@ -13,11 +13,11 @@ PC
 
 ## BDD
 
-USER INPUT            | INPUT         | OUTPUT
+USER INPUT            | INPUT         | OUTPUT                |
 
-Process               | Press roll    | Dice number is rolled
+Process               | Press roll    | Dice number is rolled |
 
-For change of players | Press hold    | Player changes
+For change of players | Press hold    | Player changes        |
 
 ## TECHNOLOGIES USED
 JavaScript
@@ -31,6 +31,7 @@ https://abigailwambui.github.io/Pig-Dice-Game/
 ### FOR FURTHER CLARIFICATION CONTACT:
 
 0705923850- Abigail wambui
+
 abigailw15njuguna@gmail.com
 
 ## LICENSE

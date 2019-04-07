@@ -2,31 +2,42 @@
 A game created to help in learning Mathematics.
 By Abigail Wambui
 
+
 ## DESCRIPTION
 This is a game played by two people who roll a dice and their dice scores per roll added, the first person/ player to get a score of 100 wins the game. If a player decides to hold they give the other player the chance to play. If they roll a 1, their total previous score becomes 0.
 
+
 ## SETUP/ INSTALLATION REQUIREMENTS
 atom
+
 Github
+
 Terminal
+
 PC
+
 
 ## BDD
 
-USER INPUT            | INPUT         | OUTPUT                |
+| USER INPUT            | INPUT         | OUTPUT                |
 
-Process               | Press roll    | Dice number is rolled |
+| Process               | Press roll    | Dice number is rolled |
 
-For change of players | Press hold    | Player changes        |
+| For change of players | Press hold    | Player changes        |
+
 
 ## TECHNOLOGIES USED
 JavaScript
+
 HTML
+
 CSS (Bootstrap.css)
+
 JQuery
 
 ## LINK TO LIVE SITE ONLINE
 https://abigailwambui.github.io/Pig-Dice-Game/
+
 
 ### FOR FURTHER CLARIFICATION CONTACT:
 
@@ -34,8 +45,10 @@ https://abigailwambui.github.io/Pig-Dice-Game/
 
 abigailw15njuguna@gmail.com
 
+
 ## LICENSE
 MIT License
+
 
 Copyright (c) 2019 Abigail Wambui
 

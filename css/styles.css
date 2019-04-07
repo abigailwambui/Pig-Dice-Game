@@ -19,7 +19,7 @@
     color: white;
     width: 100px;
     height: 50px;
-  }
+    }
 .output2 {
   border: 5px solid white;
   color: white;
@@ -44,4 +44,12 @@
   width: 500px;
   height: 500px;
   margin-left: 50px;
+}
+#abby{
+  width: 100px;
+  height: 50px;
+}
+#wambui{
+  width: 100px;
+  height: 50px;
 }

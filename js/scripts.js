@@ -1,3 +1,4 @@
+// Business logic
 $(document).ready(function () {
   var sum = 0
     $("#abby").click(()=> {
@@ -11,10 +12,10 @@ $(document).ready(function () {
 $("#wambui").click(()=> {
 
 var randomTwo = Math.floor((Math.random()*6) +1);
-$(".output1").text(randomTwo);
+$(".output3").text(randomTwo);
 sum = sum + randomTwo;
-$(".output2").text(sum);
-if (randomTwo === 1) {
+$(".output4").text(sum);
+if (randomtwo===1) {
   alert(0);
 }
 //alert(random2);

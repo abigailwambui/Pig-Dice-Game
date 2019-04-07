@@ -30,3 +30,8 @@ if (randomTwo===1) {
 });
 
 //User logic
+$(document).ready(function() {
+  $("#hold2").click(function() {
+    $("button#wambui").toggle();
+  });
+});

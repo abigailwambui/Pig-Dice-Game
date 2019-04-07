@@ -28,3 +28,5 @@ if (randomTwo===1) {
 
 //alert(random2);
 });
+
+//User logic

@@ -1,6 +1,7 @@
 
 # PIG DICE GAME
 A game created to help in learning Mathematics.
+
 By Abigail Wambui
 
 

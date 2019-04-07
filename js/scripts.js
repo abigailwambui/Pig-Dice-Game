@@ -29,10 +29,12 @@ if (randomTwo===1) {
 //alert(random2);
 });
 
+
 //User logic
 $(document).ready(function() {
   $("#hold2").click(function() {
     $("button#wambui").toggle();
+    alert ("Nextplayer!");
   });
   $("#hold1").click(function() {
     $("button#abby").toggle();

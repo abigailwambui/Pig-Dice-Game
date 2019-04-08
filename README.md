@@ -23,8 +23,9 @@ PC
 -----------------------------------------------------------------
 | USER INPUT            | INPUT         | OUTPUT                |
 -----------------------------------------------------------------
+
 | Process               | Press roll    | Dice number is rolled |
-|                       |               |                       |
+
 | For change of players | Press hold    | Player changes        |
 
 ## TECHNOLOGIES USED

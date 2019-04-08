@@ -12,6 +12,9 @@ $(document).ready(function () {
   if (randomOne===1) {
     return sumOne *=0;
   }
+  if (sumOne >100) {
+    alert("You won!");
+  }
   //alert(random1);
 });
 $("#wambui").click(()=> {
@@ -24,8 +27,10 @@ $(".output4").text(sumTwo);
 if (randomTwo===1) {
   return sumTwo *= 0;
 }
+if (sumTwo >100) {
+  alert("You won!");
+}
 });
-
 //alert(random2);
 });
 
@@ -34,10 +39,10 @@ if (randomTwo===1) {
 $(document).ready(function() {
   $("#hold2").click(function() {
     $("button#wambui").toggle();
-    $(".images").toggle();
+    $(".comment").toggle();
   });
   $("#hold1").click(function() {
     $("button#abby").toggle();
-    $(".images").toggle();
+    $(".comment").toggle();
   });
 });

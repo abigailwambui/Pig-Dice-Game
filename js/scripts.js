@@ -25,7 +25,7 @@ sumTwo = sumTwo + randomTwo;
 $(".output4").text(sumTwo);
 
 if (randomTwo===1) {
-  return sumTwo *= 0;
+  return sumTwo *= 0 && alert("Your turn is up!");
 }
 if (sumTwo >100) {
   alert("You won!");

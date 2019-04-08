@@ -39,10 +39,10 @@ if (sumTwo >100) {
 $(document).ready(function() {
   $("#hold2").click(function() {
     $("button#wambui").toggle();
-    $(".comment").toggle();
+    $(".images").toggle();
   });
   $("#hold1").click(function() {
     $("button#abby").toggle();
-    $(".comment").toggle();
+    $(".images").toggle();
   });
 });

@@ -11,7 +11,7 @@
   font-family: serif;
   }
   body{
-    background-image: url(http://tse3.mm.bing.net/th?id=OGC.1e148825a8831252015db37dc03677af&pid=1.7&rurl=http%3A%2F%2Fdata.whicdn.com%2Fimages%2F114423562%2Flarge.gif&ehk=i424uQE5EEsrskRnRBvqaQ);
+    background-color: black;
     opacity:0.8;
   }
   .output1 {
@@ -40,7 +40,7 @@
     }
   .col-md-6 {
   color: brown;
-  border: 5px solid white;
+  border: 5px solid pink;
   width: 500px;
   height: 500px;
   margin-left: 50px;
@@ -52,4 +52,10 @@
 #wambui{
   width: 100px;
   height: 50px;
+}
+.images {
+  margin-left: 500px
+  display: none;
+  width:400px;
+  height: 400px;
 }
